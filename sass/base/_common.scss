@@ -1,0 +1,44 @@
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+button {
+    cursor: pointer;
+}
+
+/*Сброс стилей для ссылок */
+.link {
+    text-decoration: none;
+        transition: color var(--transition-delay-and-duration);
+}
+
+/*Сброс стилей для списков*/
+.list {
+    list-style: none;
+}
+
+.body {
+    font-family: var(--primary-font);
+    color: var(--primary-text-color);
+    letter-spacing: 0.03em;
+}

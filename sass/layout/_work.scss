@@ -1,0 +1,27 @@
+.work-list {
+    display: flex;
+    /* как вариант можно использовать justify-content: space-between;*/
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.work-list__item {
+    position: relative;
+}
+
+.work-list__img-thumb {
+    position: absolute;
+    width: 370px;
+    height: 70px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    background: rgba(47, 48, 58, 0.8);
+    transform: translateY(-100%);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white-color);
+}

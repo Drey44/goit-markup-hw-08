@@ -1,0 +1,25 @@
+.portfolio-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    transform: translate(0, 100%);
+    transition: transform var(--transition-delay-and-duration);
+    color: var(--white-color);
+    background-color: var(--portfolio-overlay-background);
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0.03em;
+    padding: 63px 24px;
+    .portfolio-list-link:focus &,
+        .portfolio-list-link:hover & {
+            transform: translateY(0%);
+        }
+}
+
